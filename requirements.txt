@@ -7,7 +7,6 @@ numpy
 opencv-python
 pandas
 Pillow
-request
 scipy
 tensorboard
 tensorflow
