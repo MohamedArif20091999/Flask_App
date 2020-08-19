@@ -13,5 +13,5 @@ tensorflow
 tqdm
 urllib3
 utils
-base64
+pybase64
 io
