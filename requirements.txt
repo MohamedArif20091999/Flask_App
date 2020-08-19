@@ -2,9 +2,8 @@ Flask
 gunicorn
 h5py
 Jinja2
-Keras
+Keras==2.2.5
 numpy
-opencv-python
 pandas
 Pillow
 scipy
