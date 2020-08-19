@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!-- <a href="/static/predict.html">click me!!</a> navbar-inverse -->
+   <nav class="navbar bg-light ">
+    <div class="container">
+      <div class="navbar-header">
+        <h1 class="navbar-brand">Pneumonia Detector</h1>
+      </div>
+      <div class="links">
+        <ul class="nav navbar-nav navbar-right">
+            <li id="home"><a href="/">HOME</a></li>
+            <li id="start"><a href="predict.html">START USING THE MODEL.</a></li>
+            <!-- <li id="contact"><a href="/contact">CONTACT US</a></li> -->
+          </ul>
+      </div>
+    </div>
+</nav>
+
+    <div class="container-two">
+        <img class="lungs" src="https://image.flaticon.com/icons/svg/3304/3304432.svg" alt="pneumonia">
+        <!-- <h2>Early Detection of pneumonia</h2> -->
+        <h2 class="pneum-detail">Pneumonia is caused by bacteria, viruses or fungi, and leaves children fighting for breath as their lungs fill with pus and fluid. 
+            More children under the age of five died from the disease in 2019 than from any other. 
+            About 437,000 children under five died due to diarrhoea and 272,000 due to malaria.</h2>
+    
+        <h3 class="unicef"><i>"Globally, pneumonia claimed the lives of more than 800,000 children under the age of five last year or one child every 39 seconds.
+             Most deaths occurred among children under the age of two, and almost 153,000 within the first month of life."</i></h3>
+        <h4 class="saidby">-UNICEF</h4>
+    </div>
+    <div class="container-three">
+      <h1 class="ai">AI for pneumonia detection:</h1>
+      <h3 class="ai-desc1">Machine Learning models need 100% accuracy when it comes to medical diagnostics. </h3>
+      <h3 class="ai-desc1">We don't claim our model predicts 100% all the time but with further fine-tuning and access to more medical data
+        (chest X-RAY in this case) we can push our accuracy boundary even furthur.</h3>
+      <h3 class="ai-desc1">This model has been trained with more than 5,800 images using the nueral network architecture of VGG-16.</h3>
+    </div>
+    <div class="button">
+     <a href="predict.html"><button class="btn ">START USING MODEL</button></a> 
+    </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</body>
+</html>

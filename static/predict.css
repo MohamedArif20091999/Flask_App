@@ -1,0 +1,61 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #1b262c;
+    color: white !important;
+}
+.nnimage{
+    height: 500px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-right: 60px;
+    float: left;
+}
+h1{
+    color: white;
+}
+.fright{
+    padding-top: 80px;
+}
+#predict-button{
+    padding: 10px 50px;
+}
+#predict-button{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+#image-selector::before{
+    padding: 10px 50px;
+}
+#image-selector:hover{
+    cursor: pointer;
+}
+.neg{
+    color: white;
+    padding-left: 50px;
+}
+.pos{
+    color: white;
+   
+}
+.preds{
+    color: #767c77;
+    padding-bottom: 30px;
+}
+.bottom{
+    color: #767c77;
+    padding-top: 30px;
+}
+.button-clicked{
+    height: 100px;
+    width: 100px;
+}
+#neg-prediction{
+    color: white;
+}
+#pos-prediction{
+    color: white;
+}
+span#neg-prediction {
+    color: white;
+}
