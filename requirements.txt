@@ -8,8 +8,6 @@ opencv-python
 pandas
 Pillow
 scipy
-tensorboard
-tensorflow
 tqdm
 urllib3
 utils
