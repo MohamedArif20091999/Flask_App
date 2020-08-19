@@ -1,4 +1,4 @@
-import base64
+import pybase64
 import numpy as np
 import io
 from PIL import Image
@@ -44,7 +44,7 @@ def pred():
 def predict():
     message = request.get_json(force=True)
     encoded = message['image']
-    decoded = base64.b64decode(encoded)
+    decoded = pybase64.b64decode(encoded)
     image = Image.open(io.BytesIO(decoded))
     processed_image = preprocess_image(image, target_size=(224, 224))
     
